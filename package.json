@@ -1,0 +1,26 @@
+{
+  "name": "employee-db-manager",
+  "version": "1.0.0",
+  "description": "Employee database manager CLI application using node.js and npm packages mysql, inquirer, and console.table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasomer75/employee-db-manager.git"
+  },
+  "author": "Geoff Somer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gasomer75/employee-db-manager/issues"
+  },
+  "homepage": "https://github.com/gasomer75/employee-db-manager#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
